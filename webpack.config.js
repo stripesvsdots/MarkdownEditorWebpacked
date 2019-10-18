@@ -9,7 +9,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   watch: true,
-  module: {  // where we defined file patterns and their loaders
+  module: { 
       rules: [ 
 		{
         test: /\.js$/,
@@ -28,8 +28,8 @@ module.exports = {
   ]
   },
 
-  devServer: {  // configuration for webpack-dev-server
+  devServer: {  
       contentBase: './dist',
-      port: 7700, // port to run dev-server
+      port: 7700
   } 
 };
