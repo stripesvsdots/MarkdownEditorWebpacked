@@ -73,22 +73,22 @@ export class WikimediaExporter extends Exporter {
 	}
 
 	beginExportMarkdownDocumentItem(item) {
-		this.output += "";	
+		
 	}
 	endExportMarkdownDocumentItem(item) {
-		this.output += "";
+		
 	}
 	beginExportSectionItem(item) {
-		this.output += "";
+		
 	}
 	endExportSectionItem(item) {
-		this.output += ""	
+		
 	}
 	beginExportParagraphItem(item) {
-		this.output += ""	
+		
 	}
 	endExportParagraphItem(item) {
-		this.output += ""	
+			
 	}
 	exportTitleItem(item) {
 		this.output += "=".repeat(item.level) + item.text + "=".repeat(item.level);
