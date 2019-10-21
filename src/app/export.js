@@ -100,7 +100,6 @@ export class WikimediaExporter extends Exporter {
 		this.output += "'''" + item.text + "'''";
 	}
 	exportNewLineItem(item) {
-	//	return '\n' + '\t'.repeat(indent);
 		this.output +=  "\n";
 	}
 	getOutput() {
