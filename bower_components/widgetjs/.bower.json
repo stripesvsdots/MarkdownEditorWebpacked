@@ -1,0 +1,15 @@
+{
+  "name": "widgetjs",
+  "homepage": "https://github.com/foretagsplatsen/widget-js",
+  "version": "5.0.5",
+  "_release": "5.0.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "5.0.5",
+    "commit": "632a90909e867bba96babb14e2b6d278f11191d5"
+  },
+  "_source": "https://github.com/foretagsplatsen/widget-js.git",
+  "_target": "^5.0.5",
+  "_originalSource": "widgetjs",
+  "_direct": true
+}

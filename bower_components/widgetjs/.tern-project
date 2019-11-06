@@ -1,0 +1,22 @@
+{
+  "libs": [
+    "jquery"
+  ],
+  "loadEagerly": [
+    "./"
+  ],
+  "dontLoad": [
+    "./dist/",
+    "./docs/",
+    "./node_modules/",
+    "./bower_components/"
+  ],
+  "plugins": {
+    "requirejs": {
+      "baseURL": "./",
+      "paths": {
+        "widgetjs" : "./src/"
+      }
+    }
+  }
+}
